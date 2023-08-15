@@ -7,4 +7,11 @@
         }
       },
       "terminal.integrated.defaultProfile.windows": "PowerShell",
+  // Python ファイル用の設定
+  "[python]": {
+    // VS Code のフォーマッターとして Black Formatter 拡張を使う
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    // ファイル保存時に自動でフォーマットする
+    "editor.formatOnSave": true
+  },
 }
